@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-creanetis",
+  "version": "5.4.0",
+  "description": "The Creanetis config for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Creanetis",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creanetis/eslint-config-creanetis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creanetis/eslint-config-creanetis/issues"
+  },
+  "homepage": "https://github.com/creanetis/eslint-config-creanetis#readme",
+  "engines": {
+    "node": ">=10.1.0"
+  }
+}
