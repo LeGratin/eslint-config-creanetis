@@ -11,7 +11,7 @@ module.exports = {
     'no-param-reassign': 2,
     'no-underscore-dangle': [0],
     'newline-per-chained-call': [2],
-    'object-curly-newline': ['error', { 'minProperties': 3 }],
+    'object-curly-newline': ['error', { 'consistent': true }],
     'require-await': 2,
     strict: [2, 'global'],
     'vars-on-top': 2,
