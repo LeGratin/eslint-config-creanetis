@@ -1,9 +1,8 @@
-
 'use strict';
 
 module.exports = {
   extends: [
-    'airbnb/base'
+    'airbnb/base',
   ],
   rules: {
     'arrow-parens': ["error", "as-needed"],
@@ -13,7 +12,7 @@ module.exports = {
     'no-underscore-dangle': [0],
     'newline-per-chained-call': [2],
     'object-curly-newline': ["error", "always"],
-    'require-await': 2
+    'require-await': 2,
     strict: [2, 'global'],
     'vars-on-top': 2,
   },
@@ -23,11 +22,11 @@ module.exports = {
     before: true,
     after: true,
     beforeEach: true,
-    afterEach: true
+    afterEach: true,
   },
   env: {
     node: true,
-    mocha: true
+    mocha: true,
   },
   parserOptions: {
     ecmaVersion: 10,
